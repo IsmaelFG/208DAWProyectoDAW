@@ -1,0 +1,12 @@
+dn: cn=gr_alumnos,ou=superior,dc=ismael,dc=local
+objectClass: top
+objectClass: posixGroup
+gidNumber: 10000
+cn: gr_alumnos
+
+
+dn: cn=gr_profesores,ou=superior,dc=ismael,dc=local
+objectClass: top
+objectClass: posixGroup
+gidNumber: 10001
+cn: gr_profesores

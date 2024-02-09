@@ -1,0 +1,39 @@
+#################################
+###
+###
+### Alta de usuarios
+###
+######################
+#  Usuarios ismael de la unidad organizativa usuarios
+dn: uid=ismael,ou=superior,dc=ismael,dc=local
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+uid: ismael
+ou: gr_alumnos
+uidNumber: 2001
+gidNumber: 10000
+homeDirectory: /home/ismael
+loginShell: /bin/bash
+sn: ferreras
+cn: ismael
+mail: ismael@ismael.local
+userPassword: {SSHA}qC2N/aMT/B+xV5RMWzmjLtN47UBpditz
+# Usuarios amor de la unidad organizativa usuarios
+dn: uid=amor,ou=superior,dc=ismael,dc=local
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+objectClass: person
+uid: amor
+ou: gr_profesores
+uidNumber: 2000
+gidNumber: 10001
+homeDirectory: /home/amor
+loginShell: /bin/bash
+sn: rodriguez
+cn: amor
+mail: amor@ismael.local
+userPassword: {SSHA}qC2N/aMT/B+xV5RMWzmjLtN47UBpditz
+

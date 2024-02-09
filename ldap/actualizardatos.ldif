@@ -1,0 +1,4 @@
+#añadir el móvil al usuario ismael
+dn:uid=ismael,ou=superior,dc=ismael,dc=local
+add:mobile
+mobile:600600600
